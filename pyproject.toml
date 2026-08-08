@@ -1,0 +1,17 @@
+[project]
+name = "sign-foundational"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mediapipe>=1.0.0",
+    "numpy>=2.5.1",
+    "opencv-python>=5.0.0.93",
+    "scikit-learn>=1.9.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.2",
+]
